@@ -1,6 +1,11 @@
-$body-color:rgba(255, 201, 100, 0.774);
-
+@import './Vars.scss';
+@import './Media.scss';
 body {
-    margin: 0;
-    background-color: $body-color;
+  margin: 0;
+  font-family: $theme-font;
+  background: $main-color;
+}
+  
+* {
+box-sizing: border-box;
 }
